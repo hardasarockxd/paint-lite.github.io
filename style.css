@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  background-color:rgb(145, 184, 178);
+}
+.container{
+  margin: 0 auto;
+}
+.inputs{
+  max-width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+}
+.inputs h4{
+  margin: 0;
+}
+.area{
+  height: 300px;
+  border: 5px solid black;
+  position: relative;
+  background-color: white;
+}
+.circle{
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+}
+.rectangle{
+  position: absolute;
+}
+.editor{
+  padding: 20px 0;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-top: none;
+  width: 300px;
+  text-align: center;
+  background-color: #c4e7f4;
+}
+.editor p{
+  margin: 10px;
+  display: inline-block;
+}
+.g{
+  display: flex;
+}

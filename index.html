@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Paint-lite</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <div class="g">
+          <h4>Круг:</h4><input type="radio" class="radioButton" name="rb" value="circle">
+          <h4>Квадрат:</h4><input type="radio" class="radioButton" name="rb" value="rectangle">
+          <h4>Любая фигура:</h4><input type="radio" class="radioButton" name="rb" value="free" checked>
+        </div>
+        <div><h4>Введите ширину:</h4><input type="text" class="values" value="30"></div>
+        <div><h4>Введите высоту:</h4><input type="text" class="values" value="30"></div>
+        <div><h4>Выберите цвет:</h4><input type="color" id='bgColor'></div>
+      </div>
+      <div class="area" id="area"></div>
+        <div class="editor">
+          <h3>Editor</h3>
+          <p>Width:</p><input type="text" class="editorC" value="">
+          <p>Height:</p><input type="text" class="editorC" value="">
+          <button type="button" id="button">Apply</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
